@@ -1,0 +1,11 @@
+.a{
+    border-color: 2px solid red;
+    background-color: red;
+    margin: 10px;
+}
+
+.b{
+    border-color: 2px solid blue;
+    background-color: blue;
+    padding:10px;
+}

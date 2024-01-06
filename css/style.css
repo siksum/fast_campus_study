@@ -1,0 +1,43 @@
+body{ /* reset.css의 일부 정의 */
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    border-bottom: 1px solid lightgray;
+}
+
+.container{
+    width: 980px;
+    margin: auto; /* 좌우 중앙 정렬 */
+}
+
+.container__left{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    float: left; /* 요소들을 가로로 배치하는 역할 */
+    margin-right: 5px;
+}
+
+.logo img{ /* logo 클래스 안에 있는 img 태그에만 적용 */
+    display: block; /* img 태그는 기본적으로 inline 요소이므로, block으로 바꿔줌 */
+}
+
+.menu{
+    float: left; /* 요소들을 가로로 배치하는 역할 */
+}
+
+.menu__item{
+    float: left; /* 요소들을 가로로 배치하는 역할 */
+    padding: 8px 10px; /* 수직 가운데 정렬 */
+}
+
+.clearfix::after{ /* float로 요소가 배경 바깥으로 벗어나는 문제 해결해줌*/
+    content: "";
+    display: block;
+    clear: both;
+}
+
